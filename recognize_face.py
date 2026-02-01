@@ -1,10 +1,3 @@
-#.\venv\Scripts\Activate.ps1
-import os
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
-
-import warnings
-warnings.filterwarnings("ignore")
-
 import os
 import time
 import cv2
@@ -152,3 +145,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
